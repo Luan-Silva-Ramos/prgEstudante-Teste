@@ -24,7 +24,7 @@ public class Main {
          */
         while (!cpfValido) {
             try {
-                System.out.println("Digite seu CPF: ");
+                System.out.print("Digite seu CPF: ");
                 String seuCpf = sc.nextLine();
                 aluno.setCpf(seuCpf);
                 cpfValido = true;
